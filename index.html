@@ -11,6 +11,9 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" />
 
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- myCss -->
     <link rel="stylesheet" href="style.css" />
 
@@ -50,7 +53,7 @@
     <!-- jumbotron -->
     <section class="jumbotron text-center">
       <img src="img/fdl.png" alt="Fadillah" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Ahmad Fadillah</h1>
+      <h1 class="display-4 mt-3" style="font-family: Segoe Script">Ahmad Fadillah</h1>
       <p class="lead">Eat | Sport | Sleep | Coding</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -64,20 +67,20 @@
 
     <!-- about -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-in">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
             <p>
               Saya lahir pada 14 November 1994 di Kota Pekalongan, Jawa Tengah, Indonesia. Saya merupakan anak pertama dan terakhir dari pasangan Mochamad Akhsin dan Sri Suliani. Olahraga adalah salah satu investasi masa depan yang saya
               lakukan, dari joging, berenang dan masih banyak yang lain nya.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
             <p>Saya lulusan S1 jurusan Teknik Informatika. Mengembangkan diri di dunia IT dalam bidang Web Development merupakan pilihan dan passion saya sekarang ini, semua saya wujudkan dengan terus belajar dan belajar.</p>
           </div>
         </div>
@@ -95,54 +98,109 @@
     <!-- Projects -->
     <section id="projects">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-3" data-aos="fade-in">
           <div class="col">
             <h2>My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="200">
               <img src="projects/1.jpg" class="card-img-top" alt="project1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center">Website Portfolio.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="400">
               <img src="projects/2.jpg" class="card-img-top" alt="project2" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center">Website Company Profile.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600">
               <img src="projects/3.jpg" class="card-img-top" alt="project3" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center">Website E-Commerce.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="400">
               <img src="projects/4.jpg" class="card-img-top" alt="project4" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center">Website Manajemen Data.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600">
               <img src="projects/5.jpg" class="card-img-top" alt="project5" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center">Blog.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- gallery -->
+      <section id="gallery">
+        <div class="container">
+          <div class="row text-center m-3">
+            <div class="col">
+              <h2>Gallery</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/1.png" alt="gambar1" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/2.png" alt="gambar2" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/3.png" alt="gambar3" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/4.png" alt="gambar4" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/5.png" alt="gambar5" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/6.png" alt="gambar6" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/7.png" alt="gambar7" class="img-fluid gallery-img" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <img src="img/gallery/8.png" alt="gambar8" class="img-fluid gallery-img" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end gallery -->
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -202,7 +260,7 @@
 
     <!-- footer -->
     <footer class="text-white text-center pb-5" style="background-color: #0a3653">
-      <p>Created With <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="" class="text-white fw-bold">Ahmad Fadillah</a></p>
+      <p>Created With <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/ahmadfadillah_n/" class="text-white fw-bold">Ahmad Fadillah</a></p>
     </footer>
     <!-- end footer -->
 
@@ -238,6 +296,26 @@
           })
           .catch((error) => console.error("Error!", error.message));
       });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <script>
+      gsap.from(".jumbotron img", { duration: 1, rotateX: 360, opacity: 0 });
+      gsap.from(".navbar", { duration: 2, y: -100, opacity: 0, ease: "bounce" });
     </script>
   </body>
 </html>
